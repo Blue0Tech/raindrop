@@ -8,7 +8,7 @@ class Raindrop {
     };
   
     display(){
-      fill(255);
+      fill(num);
       ellipseMode(CENTER);
       circle(this.body.position.x,this.body.position.y,this.body.circleRadius);
     }
